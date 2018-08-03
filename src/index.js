@@ -39,7 +39,7 @@ const mainProcess = async (handlerInput, params) => {
   return handlerInput.responseBuilder
     .speak() // TODO 成功時のメッセージ
     .reprompt(SUCCESS_REPROMPT)
-    .withSimplecard(params, response)
+    .withSimpleCard(params, response)
     .getResponse(); // 継続
 };
 
