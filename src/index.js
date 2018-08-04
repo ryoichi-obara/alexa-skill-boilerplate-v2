@@ -63,7 +63,7 @@ const YourHandler = {
   canHandle(handlerInput) {
     // IntentRequest && query
     return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-        && handlerInput.requestEnvelope.request.intent.name === 'your-intent-name';
+        && handlerInput.requestEnvelope.request.intent.name === '【インテント名】'; // TODO
   },
   async handle(handlerInput) {
     // TODO 【スロットの値チェック】
