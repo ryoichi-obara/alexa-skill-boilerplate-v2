@@ -5,11 +5,11 @@
   "author": "Ryoichi Obara <npmjs0102@gmail.com> (http://ryoichi0102.hatenablog.com/)",
   "dependencies": {
     "ask-sdk-core": "^2.0.7",
-    "ask-sdk-model": "^1.4.1"
+    "ask-sdk-model": "1.5.0"
   },
   "devDependencies": {
-    "aws-sdk": "^2.286.2",
-    "babel-cli": "^6.26.0",
+    "aws-sdk": "^2.300.0",
+    "babel-cli": "6.26.0",
     "babel-preset-env": "^1.7.0",
     "dotenv": "^6.0.0",
     "eslint": "^4.19.1",
