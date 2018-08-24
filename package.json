@@ -27,6 +27,7 @@
     "Node.js",
     "Skills"
   ],
+  "license": "MIT",
   "main": "Build/Release/index.js",
   "scripts": {
     "build": "npm i && gulp clean && babel src -d build/Release && gulp install-dependancies",
