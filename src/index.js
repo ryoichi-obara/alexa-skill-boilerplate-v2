@@ -116,7 +116,8 @@ exports.handler = async (event) => {
         YourHandler,
         CancelAndStopHandler,
         HelpHandler,
-      ).withSkillId(SKILL_ID).create();
+      ).withSkillId(SKILL_ID)
+      .create();
   }
   return skill.invoke(event);
 };
