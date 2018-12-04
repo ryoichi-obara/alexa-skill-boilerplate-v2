@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "author": "Ryoichi Obara <npmjs0102@gmail.com> (http://ryoichi0102.hatenablog.com/)",
   "dependencies": {
-    "ask-sdk-core": "^2.0.7",
-    "ask-sdk-model": "1.5.0"
+    "ask-sdk-core": "^2.3.0",
+    "ask-sdk-model": "1.9.0"
   },
   "devDependencies": {
     "aws-sdk": "^2.300.0",
